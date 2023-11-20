@@ -1,5 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700356036
-icon.svg::CompressedTexture2D::1743874008837257252::1700347534::1700347543::1::::<><>::
-::res://Level/::1700356036
-level_1.tscn::PackedScene::1907251757778319419::1700349415::0::1::::<><>::
+::res://::1700514667
+block.tscn::PackedScene::3692474712120063432::1700375851::0::1::::<><>::
+icon.svg::CompressedTexture2D::1743874008837257252::1700347534::1700513003::1::::<><>::
+main_character.gd::GDScript::-1::1700513042::0::1::::<>CharacterBody3D<>::
+main_character.tscn::PackedScene::1815554431157800960::1700375851::0::1::::<><>::res://main_character.gd
+::res://Levels/::1700514835
+level_1.tscn::PackedScene::1907251757778319419::1700515250::0::1::::<><>::uid://bsuwrwaahwodk::::res://block.tscn<>uid://04p6ffk6d7wm::::res://main_character.tscn<>uid://y30l508372xk::::res://icon.svg<>res://Levels/Icon.gd
+Icon.gd::GDScript::-1::1700514766::0::1::::<>Sprite3D<>::

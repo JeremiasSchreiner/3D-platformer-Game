@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bsuwrwaahwodk" path="res://block.tscn" id="1_suol7"]
 [ext_resource type="PackedScene" uid="uid://04p6ffk6d7wm" path="res://main_character.tscn" id="2_qkeby"]
 [ext_resource type="Texture2D" uid="uid://y30l508372xk" path="res://icon.svg" id="3_as57m"]
-[ext_resource type="Script" path="res://Icon.gd" id="4_c2mjt"]
+[ext_resource type="Script" path="res://Levels/Icon.gd" id="4_g14bw"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_ygid4"]
 size = Vector3(10, 0.5, 10)
@@ -47,9 +47,8 @@ transform = Transform3D(-0.223914, -0.682888, 0.69536, 0.61595, 0.453768, 0.6439
 
 [node name="MainCharacter" parent="." instance=ExtResource("2_qkeby")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.74398, 0.538249, 2.28042)
-metadata/_edit_lock_ = true
 
 [node name="Icon" type="Sprite3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.29681, 3.81072)
 texture = ExtResource("3_as57m")
-script = ExtResource("4_c2mjt")
+script = ExtResource("4_g14bw")

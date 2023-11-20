@@ -1,5 +1,3 @@
-res://level_1.tscn
 res://Levels/level_1.tscn
-res://block.tscn
-res://main_character.tscn
 res://main_character.gd
+res://Levels/Icon.gd
